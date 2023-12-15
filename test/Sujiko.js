@@ -15,7 +15,7 @@ const assert = chai.assert;
 describe("Sudoku Tester ", function () {
   this.timeout(100000);
 
-  it("Should create a Sudoku circuit", async () => {
+  it("Should create a Sujiko circuit", async () => {
     const circuit = await wasm_tester(
       path.join(__dirname, "../Sujiko", "Sujiko.circom"),
     );
